@@ -1,4 +1,4 @@
--- Devrim Kosova Okulları — Supabase şeması
+-- Özel Devrim Kosova Okulları — Supabase şeması
 -- Bu dosyayı Supabase Dashboard -> SQL Editor içine yapıştırıp çalıştır.
 
 -- 1) Üye profilleri tablosu

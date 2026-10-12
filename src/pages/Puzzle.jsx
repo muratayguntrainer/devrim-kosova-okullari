@@ -7,14 +7,14 @@ import { useAuth } from '../context/AuthContext'
 
 function loadSolved() {
   try {
-    const raw = localStorage.getItem('devrimKosovaSolvedPuzzleIds')
+    const raw = localStorage.getItem('kaleMeydaniSolvedPuzzleIds')
     return raw ? JSON.parse(raw) : []
   } catch {
     return []
   }
 }
 function saveSolved(arr) {
-  try { localStorage.setItem('devrimKosovaSolvedPuzzleIds', JSON.stringify(arr)) } catch { /* yok say */ }
+  try { localStorage.setItem('kaleMeydaniSolvedPuzzleIds', JSON.stringify(arr)) } catch { /* yok say */ }
 }
 
 export default function Puzzle() {

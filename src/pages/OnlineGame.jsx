@@ -169,7 +169,7 @@ export default function OnlineGame() {
   if (row.status === 'waiting') {
     const myWaitingColor = isWhite ? 'beyaz' : isBlack ? 'siyah' : null
     statusLine = myWaitingColor
-      ? `Rakip bekleniyor — sen ${myWaitingColor} oynayacaksın. Kodu bir okul arkadaşına söyleyebilirsin.`
+      ? `Rakip bekleniyor — sen ${myWaitingColor} oynayacaksın. Kodu bir kulüp arkadaşına söyleyebilirsin.`
       : 'Rakip bekleniyor.'
   } else if (row.status === 'finished') {
     statusLine =

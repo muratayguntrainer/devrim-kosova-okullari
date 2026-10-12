@@ -36,7 +36,7 @@ export default function Signup() {
 
   return (
     <div className="auth-card">
-      <h1>Üye Ol</h1>
+      <h1>Kulübe Üye Ol</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Ad Soyad

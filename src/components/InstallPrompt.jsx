@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const DISMISS_KEY = 'devrimKosovaInstallDismissedAt'
+const DISMISS_KEY = 'kaleMeydaniInstallDismissedAt'
 const DISMISS_DAYS = 14
 
 function isStandalone() {
@@ -67,8 +67,8 @@ export default function InstallPrompt() {
     <div className="install-banner">
       <span>
         {deferredPrompt
-          ? 'Devrim Kosova Okulları\'nı telefonuna uygulama gibi kurabilirsin.'
-          : 'Devrim Kosova Okulları\'nı ana ekranına eklemek için paylaş düğmesine, sonra "Ana Ekrana Ekle"ye dokun.'}
+          ? 'Özel Devrim Kosova Okulları\'nı telefonuna uygulama gibi kurabilirsin.'
+          : 'Özel Devrim Kosova Okulları\'nı ana ekranına eklemek için paylaş düğmesine, sonra "Ana Ekrana Ekle"ye dokun.'}
       </span>
       <div className="install-banner-actions">
         {deferredPrompt && (

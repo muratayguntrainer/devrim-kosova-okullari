@@ -146,7 +146,7 @@ export default function PlayOnline() {
           type="text"
           value={newGameCode}
           onChange={(e) => setNewGameCode(e.target.value.toUpperCase().slice(0, 12))}
-          placeholder="Örn. DEVRIM24"
+          placeholder="Örn. KALE24"
           maxLength={12}
         />
       </label>

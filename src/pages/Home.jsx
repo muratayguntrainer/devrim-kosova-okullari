@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <span className="hero-emblem">♜</span>
-        <h1>Devrim Kosova Okulları'na Hoş Geldin{profile?.full_name ? `, ${profile.full_name}` : ''}</h1>
-        <p className="tagline">Okulun satranç platformu — yapay zekaya karşı oyna, puzzle çöz, üyelerle karşılaş, gelişimini takip et.</p>
+        <img src="/logo.png" alt="Özel Devrim Kosova Okulları logosu" className="hero-emblem-img" />
+        <h1>Özel Devrim Kosova Okulları'na Hoş Geldin{profile?.full_name ? `, ${profile.full_name}` : ''}</h1>
+        <p className="tagline">Kulübün satranç platformu — yapay zekaya karşı oyna, puzzle çöz, üyelerle karşılaş, gelişimini takip et.</p>
       </div>
       <div className="home-grid">
         <div className="home-card">
@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className="home-card">
           <h2>Üyelerle Oyna</h2>
-          <p>Okuldan bir arkadaşına karşı gerçek zamanlı satranç oyna.</p>
+          <p>Kulüpten bir üyeye karşı gerçek zamanlı satranç oyna.</p>
           {user ? <Link to="/oyna/online">Lobiye git →</Link> : <Link to="/kayit">Üye ol →</Link>}
         </div>
         <div className="home-card">

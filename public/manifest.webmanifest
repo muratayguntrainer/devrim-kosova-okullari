@@ -1,7 +1,7 @@
 {
-  "name": "Devrim Kosova Okulları",
+  "name": "Özel Devrim Kosova Okulları",
   "short_name": "Devrim Kosova",
-  "description": "Okulun satranç platformu: yapay zekaya karşı oyna, taktik puzzle çöz, üyelerle gerçek zamanlı satranç oyna.",
+  "description": "Kulübün satranç platformu: yapay zekaya karşı oyna, taktik puzzle çöz, üyelerle gerçek zamanlı satranç oyna.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

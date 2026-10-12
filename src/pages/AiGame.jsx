@@ -8,7 +8,7 @@ import { useAuth } from '../context/AuthContext'
 
 function loadLevel() {
   try {
-    const raw = localStorage.getItem('devrimKosovaLevel')
+    const raw = localStorage.getItem('kaleMeydaniLevel')
     const n = raw ? parseInt(raw, 10) : 3
     return LEVELS.some((l) => l.n === n) ? n : 3
   } catch {
@@ -132,7 +132,7 @@ export default function AiGame() {
   function handleLevelChange(e) {
     const n = parseInt(e.target.value, 10)
     setLevel(n)
-    try { localStorage.setItem('devrimKosovaLevel', String(n)) } catch { /* yok say */ }
+    try { localStorage.setItem('kaleMeydaniLevel', String(n)) } catch { /* yok say */ }
   }
 
   function handleUndo() {

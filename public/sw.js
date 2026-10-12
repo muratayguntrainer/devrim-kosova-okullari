@@ -1,4 +1,4 @@
-// Devrim Kosova Okulları - basit PWA service worker.
+// Özel Devrim Kosova Okulları - basit PWA service worker.
 // Vite her derlemede JS/CSS dosyalarına yeni hash'li isimler verdiği için
 // (ör. index-abc123.js), burada dosya adlarını sabit olarak önbelleğe almıyoruz.
 // Bunun yerine: sayfa gezintilerinde önce ağı dene (kullanıcı hep en güncel
@@ -8,7 +8,7 @@
 // devam eder. Supabase/Stockfish gibi başka adreslere giden isteklere hiç
 // dokunmuyoruz — onlar doğrudan ağa gider.
 
-const CACHE_NAME = 'devrim-kosova-okullari-v1'
+const CACHE_NAME = 'devrim-kosova-v1'
 const APP_SHELL = ['/', '/manifest.webmanifest']
 
 self.addEventListener('install', (event) => {

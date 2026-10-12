@@ -12,7 +12,10 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="brand">♜ Devrim Kosova Okulları</Link>
+      <Link to="/" className="brand">
+        <img src="/logo.png" alt="Özel Devrim Kosova Okulları logosu" className="brand-logo" />
+        Özel Devrim Kosova Okulları
+      </Link>
       <div className="nav-links">
         {user && (
           <>
